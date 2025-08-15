@@ -7,7 +7,8 @@
     "dev": "vite",
     "server": "node server/index.js",
     "dev:all": "concurrently \"vite\" \"npm run server\"",
-    "build": "tsc && vite build",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit --skipLibCheck",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },

@@ -9,7 +9,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Loader2, Plus, Search, Edit, Trash2 } from 'lucide-react';
 import { toast } from '@/components/ui/use-toast';
-import apiClient from '@/lib/api';
+import { apiClient } from '@/lib/api';
 
 interface Product {
   id: string;
